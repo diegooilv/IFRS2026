@@ -2,29 +2,55 @@
 
 ---
 
-## Navegação
+## Menu de Navegação
 
 - [Guia](#guia)
-  - [Navegação](#navegação)
+  - [Menu de Navegação](#menu-de-navegação)
   - [Introdução](#introdução)
   - [Sintaxe Básica](#sintaxe-básica)
+    - [Comentários](#comentários)
   - [Variáveis e Tipos](#variáveis-e-tipos)
+    - [Tipos principais](#tipos-principais)
+    - [Exemplos](#exemplos)
   - [Constantes](#constantes)
   - [Operadores](#operadores)
+    - [Aritméticos](#aritméticos)
+    - [Comparação](#comparação)
+    - [Lógicos](#lógicos)
+    - [Concatenação](#concatenação)
   - [Estruturas de Controle](#estruturas-de-controle)
+    - [If](#if)
+    - [Switch](#switch)
+    - [Ternário](#ternário)
   - [Loops](#loops)
+    - [For](#for)
+    - [While](#while)
+    - [Foreach](#foreach)
   - [Arrays](#arrays)
+    - [Array simples](#array-simples)
+    - [Associativo](#associativo)
+    - [Funções úteis](#funções-úteis)
   - [Strings](#strings)
   - [Funções](#funções)
+    - [Arrow function](#arrow-function)
   - [Superglobais](#superglobais)
+    - [Principais](#principais)
   - [Formulários](#formulários)
+    - [HTML](#html)
+    - [PHP](#php)
   - [Validação e Segurança](#validação-e-segurança)
+    - [Evitar XSS](#evitar-xss)
+    - [Senha segura](#senha-segura)
+    - [Verificação segura](#verificação-segura)
   - [Sessões](#sessões)
   - [Cookies](#cookies)
   - [Manipulação de Arquivos](#manipulação-de-arquivos)
   - [Tratamento de Erros](#tratamento-de-erros)
   - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
   - [Banco de Dados com PDO](#banco-de-dados-com-pdo)
+    - [Conexão](#conexão)
+    - [Consulta](#consulta)
+    - [Inserção segura](#inserção-segura)
 
 ---
 
@@ -51,7 +77,7 @@ $idade = 18;
 ?>
 ```
 
-Comentários:
+### Comentários
 
 ```php
 // Comentário de linha
@@ -66,7 +92,7 @@ de múltiplas linhas
 
 ## Variáveis e Tipos
 
-Tipos principais:
+### Tipos principais
 
 - string
 - int
@@ -76,7 +102,7 @@ Tipos principais:
 - object
 - null
 
-Exemplos:
+### Exemplos
 
 ```php
 $texto = "PHP";
@@ -99,13 +125,13 @@ const VERSAO = "1.0";
 
 ## Operadores
 
-Aritméticos:
+### Aritméticos
 
 ```php
 + - * / %
 ```
 
-Comparação:
+### Comparação
 
 ```php
 ==  ===
@@ -114,7 +140,7 @@ Comparação:
 >=  <=
 ```
 
-Lógicos:
+### Lógicos
 
 ```php
 &&
@@ -122,7 +148,7 @@ Lógicos:
 !
 ```
 
-Concatenação:
+### Concatenação
 
 ```php
 $nome = "Diego";
@@ -133,7 +159,7 @@ echo "Olá " . $nome;
 
 ## Estruturas de Controle
 
-If:
+### If
 
 ```php
 if ($idade >= 18) {
@@ -145,7 +171,7 @@ if ($idade >= 18) {
 }
 ```
 
-Switch:
+### Switch
 
 ```php
 switch ($dia) {
@@ -157,7 +183,7 @@ switch ($dia) {
 }
 ```
 
-Ternário:
+### Ternário
 
 ```php
 echo ($idade >= 18) ? "Adulto" : "Menor";
@@ -167,7 +193,7 @@ echo ($idade >= 18) ? "Adulto" : "Menor";
 
 ## Loops
 
-For:
+### For
 
 ```php
 for ($i = 0; $i < 5; $i++) {
@@ -175,14 +201,14 @@ for ($i = 0; $i < 5; $i++) {
 }
 ```
 
-While:
+### While
 
 ```php
 while ($condicao) {
 }
 ```
 
-Foreach:
+### Foreach
 
 ```php
 foreach ($array as $valor) {
@@ -194,13 +220,13 @@ foreach ($array as $valor) {
 
 ## Arrays
 
-Array simples:
+### Array simples
 
 ```php
 $lista = [1, 2, 3];
 ```
 
-Associativo:
+### Associativo
 
 ```php
 $usuario = [
@@ -209,7 +235,7 @@ $usuario = [
 ];
 ```
 
-Funções úteis:
+### Funções úteis
 
 ```php
 count($lista);
@@ -244,7 +270,7 @@ function saudacao($nome) {
 echo saudacao("Diego");
 ```
 
-Arrow function:
+### Arrow function
 
 ```php
 $soma = fn($a, $b) => $a + $b;
@@ -254,7 +280,7 @@ $soma = fn($a, $b) => $a + $b;
 
 ## Superglobais
 
-Principais:
+### Principais
 
 ```
 $_GET
@@ -270,7 +296,7 @@ $_FILES
 
 ## Formulários
 
-HTML:
+### HTML
 
 ```html
 <form method="POST">
@@ -279,7 +305,7 @@ HTML:
 </form>
 ```
 
-PHP:
+### PHP
 
 ```php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -291,20 +317,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 ## Validação e Segurança
 
-Evitar XSS:
+### Evitar XSS
 
 ```php
 htmlspecialchars($input);
 ```
 
-Senha segura:
+### Senha segura
 
 ```php
 $hash = password_hash("123", PASSWORD_DEFAULT);
 password_verify("123", $hash);
 ```
 
-Verificação segura:
+### Verificação segura
 
 ```php
 isset($variavel);
@@ -381,13 +407,13 @@ echo $user->getNome();
 
 ## Banco de Dados com PDO
 
-Conexão:
+### Conexão
 
 ```php
 $pdo = new PDO("mysql:host=localhost;dbname=teste", "root", "");
 ```
 
-Consulta:
+### Consulta
 
 ```php
 $stmt = $pdo->prepare("SELECT * FROM usuarios WHERE id = ?");
@@ -395,7 +421,7 @@ $stmt->execute([1]);
 $resultado = $stmt->fetch();
 ```
 
-Inserção segura:
+### Inserção segura
 
 ```php
 $stmt = $pdo->prepare("INSERT INTO usuarios (nome) VALUES (?)");
