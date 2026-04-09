@@ -1,0 +1,9 @@
+services:
+  php:
+    build: .
+    image: progweb-ii-php:8.2-apache
+    container_name: progweb_php
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www/html

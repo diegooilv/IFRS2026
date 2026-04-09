@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Mantem /aulaXX/ no navegador, servindo /aulaXX/src/ internamente
+RewriteRule ^(aula[0-9]{2})/?$ $1/src/ [QSA,L]
+RewriteCond %{REQUEST_URI} !^/(aula[0-9]{2})/src/
+RewriteRule ^(aula[0-9]{2})/(.+)$ $1/src/$2 [QSA,L]
+
+RewriteCond %{REQUEST_URI} !^/(assets|api|vendor)/
+RewriteCond %{REQUEST_URI} !/src/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([^/]+)/(.*)$ $1/src/$2 [QSA,L]
