@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        fieldset * {
+            display: block;
+        }
+
+        fieldset {
+            min-height: 100dvh;
+        }
+
+        .radio {
+            display: inline;
+        }
+
+        label {
+            display: inline;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        #enviar {
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+            border-radius: 8px;
+        }
+
+        #uno {
+            background-image: url("./img/uno.png");
+            width: auto;
+            height: 1000px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: red;
+            margin: 1px 0 0 1px;
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        #logo {
+            margin-left: 20px;
+            height: 40px;
+        }
+
+        .girar {
+
+            transition: transform 0.8s ease;
+            will-change: transform;
+        }
+
+        .girar:hover {
+            transform: scale(2) rotate(360deg);
+        }
+
+        .btn-votar {
+            margin-top: 10px;
+            background: linear-gradient(135deg, #d40000, #8b0000);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-votar:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+            background: linear-gradient(135deg, #ff1a1a, #b30000);
+        }
+
+
+        .btn-votar:active {
+            transform: scale(0.96);
+        }
+
+        .btn-votar::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 12px;
+            background: linear-gradient(120deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.3),
+                    transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .btn-votar:hover::after {
+            transform: translateX(100%);
+        }
+
+        .btn-votar {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #butao {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .aula {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="./form.php" method="post" autocomplete="false">
+        <fieldset>
+            <h1 class=aula>Aula</h1>
+            <input type="text" name="nome" id="name" placeholder="Nome" required>
+            <label for="date" class="inline" required>Data de Nascimento:</label>
+            <input type="date" name="data_nascimento" id="date">
+
+            <input type="email" name="correio_eletronico" id="email" required placeholder="Email">
+            <label for="cursos">Escolha seu curso</label>
+            <select name="curso" id="cursos" required>
+                <option value="info">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+            <input type="radio" name="turno" id="manha" class="radio" value="manha" required>
+            <label for="manha" class="radio">Manhã</label>
+            <input type="radio" name="turno" id="tarde" class="radio" value="tarde">
+            <label for="tarde" class="radio">Tarde</label>
+            <br>
+            <p>Suas Preferências:</p>
+            <input type="checkbox" name="areas_interesse[]" id="banco" class="inline" value="banco_de_dados">
+            <label for="banco" class="inline">Banco de Dados</label><br>
+
+            <input type="checkbox" name="areas_interesse[]" id="frontend" class="inline" value="frontend">
+            <label for="frontend" class="inline">Front-end</label><br>
+
+            <input type="checkbox" name="areas_interesse[]" id="backend" class="inline" value="backend">
+            <label for="backend" class="inline">Back-end</label><br>
+
+            <input type="checkbox" name="areas_interesse[]" id="redes" class="inline" value="redes">
+            <label for="redes" class="inline">Redes</label><br>
+
+            <input type="checkbox" name="areas_interesse[]" id="seguranca" class="inline"
+                value="seguranca_da_informacao">
+            <label for="seguranca" class="inline">Segurança da Informação</label>
+            <input type="submit" value="Enviar" id="enviar">
+        </fieldset>
+
+    </form>
+    <h1>Flamengo <a href="https://github.com/diegooilv"><img src="img/logo.png" class="girar" alt="Fla" id="logo"></a>
+    </h1>
+    <div id="uno">
+
+    </div>
+    <div id="butao" onclick="bh()"><button class="btn-votar">Votar no Bruno Henrique</button></div>
+</body>
+<script>
+    function bh() {
+        alert("Voto computado com sucesso! Obrigado por votar no Bruno Henrique!");
+    }
+</script>
+
+</html>

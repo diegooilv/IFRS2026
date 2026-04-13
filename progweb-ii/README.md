@@ -8,7 +8,8 @@
 [23/03](./src/aula04/)
 [30/03](./src/aula05/)
 [06/04](./src/aula06/)
+[13/04](./src/aula07/])
 
 ---
 
-Site: https://progweb.infinityfree.me/
+Site: <https://progweb.infinityfree.me/> (Atualizado em 06/04, com erros ainda).
