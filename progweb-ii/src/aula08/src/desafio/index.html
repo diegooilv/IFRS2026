@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício PHP - Formulários</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    h2 {
+      margin-top: 20px;
+      color: #34495e;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #3498db;
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .svg-container {
+      margin-top: 20px;
+    }
+
+    .btn-solucao {
+      display: inline-block;
+      padding: 10px 18px;
+      background: linear-gradient(135deg, #10a37f, #0e8f6f);
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-solucao:hover {
+      background: linear-gradient(135deg, #0e8f6f, #0b7a5f);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-solucao:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="badge">Exercício prático</div>
+    <h1>Cadastro de Usuário com PHP</h1>
+
+    <p>Desenvolva um sistema simples de cadastro utilizando <strong>HTML + PHP</strong>, com validação de dados e
+      feedback ao usuário.</p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>Criar um formulário HTML que envie dados para um script PHP, validando as informações antes de processar.</p>
+
+    <h2>📋 Requisitos do Formulário</h2>
+    <ul>
+      <li>Nome (texto)</li>
+      <li>Email (email)</li>
+      <li>Idade (número)</li>
+      <li>Senha (password)</li>
+      <li>Confirmar senha (password)</li>
+      <li>Gênero (radio: Masculino / Feminino / Outro)</li>
+      <li>Interesses (checkbox: Tecnologia, Esporte, Música)</li>
+      <li>Botão "Cadastrar"</li>
+    </ul>
+
+    <h2>⚙️ Regras de Validação (PHP)</h2>
+    <ul>
+      <li>Todos os campos são obrigatórios</li>
+      <li>Email deve ser válido</li>
+      <li>Idade mínima de 18 anos</li>
+      <li>Senha deve ter pelo menos 6 caracteres</li>
+      <li>Senha e confirmação devem coincidir</li>
+    </ul>
+
+    <h2>📌 Comportamento Esperado</h2>
+    <ul>
+      <li>Exibir mensagens de erro claras quando houver problemas</li>
+      <li>Se tudo estiver correto, mostrar "Cadastro realizado com sucesso"</li>
+      <li>Exibir os dados (exceto a senha)</li>
+    </ul>
+
+    <h2>🚀 Extras (Opcional)</h2>
+    <ul>
+      <li>Manter dados preenchidos após erro</li>
+      <li>Sanitizar entradas</li>
+      <li>Organizar erros em um array</li>
+    </ul>
+
+    <h2>💪 Desafio Bônus</h2>
+    <ul>
+      <li>Salvar dados em JSON ou banco de dados</li>
+      <li>Criar sistema de login simples</li>
+    </ul>
+
+    <a href="./solucao/" class="btn-solucao">Solução</a>
+
+    <div class="footer">
+      <p>Exercício gerado por IA - ChatGPT FREE</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
