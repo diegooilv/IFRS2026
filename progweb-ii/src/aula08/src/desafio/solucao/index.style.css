@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100dvw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    max-width: 800px;
+    min-width: 400px;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px red solid;
+}
+
+hr {
+    margin: 15px 0 15px 0;
+}
+
+#toggleSenhaBtn {
+    margin: 5px auto 10px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: red;
+    height: 25px;
+    font-weight: 900;
+}
+
+#btnCadastro {
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+img {
+    width: 40px;
+    transition: 1.3s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

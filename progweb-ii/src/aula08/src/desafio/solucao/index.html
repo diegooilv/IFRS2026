@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="./index.style.css">
+
+<h1>Formulário</h1>
+<form action="./form.php" method="post" id="formulario">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome">
+    <hr>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <hr>
+    <label for="idade">Idade:</label>
+    <input type="number" name="idade" id="idade" min="1" step="1">
+    <hr>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha">
+    <br>
+    <button type="button" onclick="toggleSenha()" id="toggleSenhaBtn">Ver Senha</button>
+    <br>
+    <label for="confSenha">Confirme sua senha:</label>
+    <input type="password" name="confSenha" id="confSenha">
+    <hr>
+    <label for="genero">Seu Gênero:</label>
+    <input type="radio" name="genero" id="op1" value="masculino">
+    <label for="op1">Masculino</label>
+    <input type="radio" name="genero" id="op2" value="feminino">
+    <label for="op2">Feminino</label>
+    <input type="radio" name="genero" id="op3" value="outro">
+    <label for="op3">Outro</label>
+    <hr>
+    <label><input type="checkbox" name="interesses[]" value="tecnologia">Tecnologia</label>
+    <label><input type="checkbox" name="interesses[]" value="esporte">Esporte</label>
+    <label><input type="checkbox" name="interesses[]" value="musica">Musica</label>
+    <hr>
+    <button type="button" onclick="cadastrar()" id="btnCadastro">Cadastrar</button>
+</form>
+
+<footer>
+    <a href="https://github.com/diegooilv/IFRS2025/"><img src="./img/github.svg" alt="github svg"></a>
+</footer>
+
+<script src="./index.script.js">
+</script>
