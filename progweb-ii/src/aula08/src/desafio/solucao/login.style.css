@@ -1,0 +1,68 @@
+body {
+    width: 60%;
+    margin: 20px auto 0 auto;
+    max-width: 900px;
+    min-width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    padding: 30px;
+    border: 1px solid red;
+}
+
+input {
+    height: 25px;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    padding: 5px 10px;
+    align-items: center;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    padding: 6.5px 13px;
+    cursor: pointer;
+}
+
+h1 {
+    transition: 1s;
+    display: inline;
+}
+
+h1:hover {
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+#titulo {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 40px;
+    transition: 1.3s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
