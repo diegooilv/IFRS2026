@@ -14,4 +14,4 @@
 
 ---
 
-Site: <https://progweb.infinityfree.me/> (Atualizado em 06/04, com erros ainda).
+Site: <https://progweb.infinityfree.me/> (Atualizado em 04/05, até a aula 09).
