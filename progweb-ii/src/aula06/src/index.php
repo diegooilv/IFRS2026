@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Lista de Exercícios 23/03 - <a href="enunciados.php">Enunciados</a></h1>
+    <h1>Lista de Exercícios 06/04 - <a href="enunciados.php">Enunciados</a></h1>
     <nav>
         <ul>
             <li><a href="./01.php">Exercício 01</a></li>
