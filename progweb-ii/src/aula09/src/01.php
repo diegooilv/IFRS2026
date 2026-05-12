@@ -31,10 +31,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $resultado = $num1 - $num2;
             break;
         case "multi":
-            $resultado = $num1 + $num2;
+            $resultado = $num1 * $num2;
             break;
         case "div":
-            $resultado = $num1 + $num2;
+            $resultado = $num1 / $num2;
             break;
         default:
             echo "<h1>Erro</h1>";
