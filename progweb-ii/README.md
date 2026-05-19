@@ -11,6 +11,8 @@
 - [13/04](./src/aula07/)
 - [27/04](./src/aula08/)
 - [04/05](./src/aula09/)
+- [11/05](./src/utils/Prova%20I.md)
+- [18/05](./src/utils/sessions.md)
 
 ---
 
