@@ -7,8 +7,8 @@ Os conteúdos estão organizados por disciplina em diretórios específicos.
 
 ## 🧩 Projeto Integrador II
 
-Os esboços estão disponíveis em `pi-ii/`.
-O projeto principal está em outro repositório (link será adicionado posteriormente).
+Materiais do primeiro trimestre estão aqui: `pi-ii/`.
+O projeto principal está aqui: <https://github.com/diegooilv/sophia> (Segundo e Terceiro Trimestre).
 
 ---
 
@@ -33,9 +33,10 @@ Cada diretório pode conter:
 | 💡 Disciplina                        | 📂 Acesso |
 | ------------------------------------ | ---------- |
 | Análise e Projeto de Sistemas        | [aps/](aps/) |
-| Projeto Integrador II                | [pi-ii/](pi-ii/) |
 | Programação para Dispositivos Móveis | [prog-mobile/](prog-mobile/) |
 | Programação Web II                   | [progweb-ii/](progweb-ii/) |
+| Projeto Integrador II                | [pi-ii/](pi-ii/) |
+| Sophia - Plataforma de Filosofia     | [sophia/](https://github.com/diegooilv/sophia) |
 
 ---
 

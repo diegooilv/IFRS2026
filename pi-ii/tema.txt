@@ -1,0 +1,17 @@
+Sophia – Plataforma de Filosofia
+Sistema:
+Uma plataforma web voltada à filosofia, onde usuários podem publicar reflexões e textos filosóficos, além de descobrir e compartilhar materiais de estudo — sejam digitais (PDFs, links) ou indicações de onde encontrar/comprar materiais físicos.
+
+Problema:
+A filosofia é pouco acessível no Brasil — o conteúdo de qualidade está disperso em livros caros, canais desconexos ou em inglês. Não existe uma plataforma em português que una produção autoral, debate e curadoria de materiais filosóficos em um só lugar. Sophia busca democratizar o acesso ao pensamento filosófico, criando uma comunidade acessível para estudantes, autodidatas e entusiastas.
+
+Quem são os usuários
+Pessoas interessadas em filosofia — estudantes, autodidatas e entusiastas — que queiram ler, escrever ou encontrar materiais sobre o tema.
+
+Perfis:
+Visitante (não autenticado)
+Pode navegar e ler posts e materiais disponíveis na plataforma, sem necessidade de cadastro.
+Usuário autenticado
+Pode se registrar, fazer login, publicar posts, comentar, salvar materiais e gerenciar sua própria conta (incluindo recuperação de senha e exclusão do cadastro).
+Administrador
+Pode moderar posts e comentários, gerenciar usuários, categorias e materiais em destaque, além de configurar aspectos gerais da plataforma.

@@ -1,8 +1,16 @@
-# Projeto
+# Sophia
 
-Em um novo repositório em breve...
+**Plataforma de Filosofia**
 
-## Materiais
+> Espaço digital para reflexão, debate e acesso a materiais filosóficos — reunindo pensamento livre e curadoria de conteúdo em um só lugar.
 
-[GIT](materiais/git.md)
-[DOCKER](materiais/docker.md)
+## Sobre
+
+Sophia é uma plataforma dedicada à filosofia, onde usuários podem publicar reflexões e textos autorais, além de descobrir, compartilhar e acessar materiais filosóficos — sejam digitais ou físicos.
+
+Link do repostório: <https://github.com/diegooilv/sophia>
+
+### Materiais
+
+- [GIT](materiais/git.md)
+- [DOCKER](materiais/docker.md)
