@@ -9,6 +9,8 @@
 - [22/04](aulas/Aula%2005.md)
 - [29/04](aulas/Aula%2006.md)
 - [06/05](aulas/Aula%2007.md)
+- [13/05](aulas/Aula%2008.md)
+- [17/06](aulas/Aula%2009.md)
 
 ## Resumos
 
