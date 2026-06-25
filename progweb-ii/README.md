@@ -21,7 +21,7 @@ Repositório com materiais, exercícios, anotações e projetos desenvolvidos du
 
 ---
 
-## 🛠️ CRUD
+## 🛠️ CRUD - Aulas
 
 📅 **Início:** 01/06
 
@@ -32,6 +32,12 @@ Repositório com materiais, exercícios, anotações e projetos desenvolvidos du
 📥 **Download do CRUD (.zip):**
 
 [👉 Baixar Projeto](https://downgit.github.io/#/home?url=https://github.com/diegooilv/IFRS2026/tree/main/progweb-ii/src/crud)
+
+---
+
+## 🛠️ CRUD Projeto - II Trimestre
+
+[👉 Livros](https://github.com/diegooilv/crud-livros)
 
 ---
 
