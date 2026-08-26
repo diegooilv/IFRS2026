@@ -11,6 +11,7 @@
 - [06/05](aulas/Aula%2007.md)
 - [13/05](aulas/Aula%2008.md)
 - [17/06](aulas/Aula%2009.md)
+- [01/07](aulas/Aula%2010.md)
 
 ## Resumos
 
