@@ -8,7 +8,7 @@ Os conteúdos estão organizados por disciplina em diretórios específicos.
 ## 🧩 Projeto Integrador II
 
 Materiais do primeiro trimestre estão aqui: `pi-ii/`.
-O projeto principal está aqui: <https://github.com/diegooilv/sophia> (Segundo e Terceiro Trimestre).
+O projeto principal está aqui: <https://github.com/diegooilv/pi> (Segundo e Terceiro Trimestre).
 
 ---
 
