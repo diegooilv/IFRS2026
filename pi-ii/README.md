@@ -1,4 +1,4 @@
-# Sophia
+# Noesis
 
 **Plataforma de Filosofia**
 
@@ -6,9 +6,9 @@
 
 ## Sobre
 
-Sophia é uma plataforma dedicada à filosofia, onde usuários podem publicar reflexões e textos autorais, além de descobrir, compartilhar e acessar materiais filosóficos — sejam digitais ou físicos.
+Noesis é uma plataforma dedicada à filosofia, onde usuários podem publicar reflexões e textos autorais, além de descobrir, compartilhar e acessar materiais filosóficos — sejam digitais ou físicos.
 
-Link do repostório: <https://github.com/diegooilv/sophia>
+Link do repostório: <https://github.com/diegooilv/pi>
 
 ### Materiais
 
