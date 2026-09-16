@@ -35,16 +35,18 @@ Repositório com materiais, exercícios, anotações e projetos desenvolvidos du
 
 ---
 
-## 🛠️ CRUD Projeto - II Trimestre
+## 🛠️ CRUD Projeto — II Trimestre
 
 [👉 Livros](https://github.com/diegooilv/crud-livros)
+
+## 🔐 Trabalho SQL Injection — III Trimestre
+
+[👉 SQL Injection](./src/utils/SQLi.md)
 
 ---
 
 ## 🚀 Site Publicado
 
-🌍 **Acesso:**
-
-<https://progweb.infinityfree.me/>
+🌍 **Acesso: Indisponível temporariamente**
 
 > 📌 Atualizado em 04/05 (até a Aula 09).
